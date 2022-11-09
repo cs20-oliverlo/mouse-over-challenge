@@ -15,7 +15,6 @@ function mousemoveHandler(event) {
     // Calc mouse coordinates using mouse event and canvas location info
     mouseX = Math.round(event.clientX - cnvRect.left);
     mouseY = Math.round(event.clientY - cnvRect.top);
-    // console.log(mouseX, mouseY);
 }
 
 let rectX = 200;

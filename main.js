@@ -20,14 +20,14 @@ function mousemoveHandler(event) {
 
 let rectX = 200;
 let rectY = 270;
+let circX = 550;
+let circY = 300;
 let r1 = 255;
 let g1 = 255;
 let b1 = 255;
 let r2 = 255;
 let g2 = 255;
 let b2 = 255;
-let circX = 550;
-let circY = 300;
 
 requestAnimationFrame(animate);
 function animate() {

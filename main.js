@@ -36,18 +36,17 @@ function animate() {
     if (rectX <= mouseX && mouseX <= rectX + 100 && rectY <= mouseY && mouseY <= rectY + 60) {
         rectX = Math.random() * 700;
         rectY = Math.random() * 540;
-        r1 = Math.trunc(Math.random() * 255);
-        g1 = Math.trunc(Math.random() * 255);
-        b1 = Math.trunc(Math.random() * 255);
+        r1 = Math.random() * 255;
+        g1 = Math.random() * 255;
+        b1 = Math.random() * 255;
     }
     
     if (circX - 50 <= mouseX && mouseX <= circX + 50 && circY - 50 <= mouseY && mouseY <= circY + 50) {
         circX = (Math.random() * 700) + 50;
         circY = (Math.random() * 500) + 50;
-        r2 = Math.trunc(Math.random() * 255);
-        g2 = Math.trunc(Math.random() * 255);
-        b2 = Math.trunc(Math.random() * 255);
-        console.log(r2);
+        r2 = Math.random() * 255;
+        g2 = Math.random() * 255;
+        b2 = Math.random() * 255;
     }
 
     if (r1 <= 0 && g1 <= 0 && b1 <= 0) {
